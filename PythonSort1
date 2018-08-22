@@ -1,0 +1,23 @@
+print("Hello World")
+print(range(10))
+print(list(range(10)))
+#print(list(range(4506, 8690,4)))
+
+fruit = ["oranges","tangerines","apples"]
+print(fruit[1])
+
+for i in range(len(fruit)):
+    print("I like " + fruit[i] + ".")
+
+    
+#for i in range(len(fruit)):
+    #j = fruit[(i+1)]
+    #if len(fruit[i])>len(fruit[j])
+    #k = fruit[i]
+    #fruit[i] = fruit[j]
+    #fruit[j] = k
+
+for j in range(len(fruit)):
+    print("I like " + fruit[j] + ".")
+    print(len(fruit[j]))
+    print(range(len(fruit[0]),len(fruit), -1))
